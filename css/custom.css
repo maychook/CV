@@ -1,0 +1,91 @@
+body{
+    font-family: 'Levenim MT';
+    background: #424242;
+    color: white;
+}
+#cv
+{
+    width: 1000px;
+    margin: 0 auto; /*-----------------------------middle*/
+    margin-top: 20px;
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75); /* עושה מסגרת צל מסביב לאלמנט כאשר שלושת האפסים הראשונים אחראים על הצבע והערך האחרון זה שקיפות*/
+}
+#profile
+{
+    background: #1e1e1e;
+    color: #a5a5a5;
+    padding: 25px;
+}
+#intro
+{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #a5a5a5;
+    
+}
+#intro img
+{
+    border-radius:50%;
+    height: 200px;
+    width: 200px;
+    margin-right: 25px;
+}
+#intro header
+{
+    margin-right: 25px;
+    text-transform: uppercase; /*----------- אותיות גדולות */
+}
+#intro header h1
+{
+    font-weight: 300;
+    color: #fff;
+    font-size: 25px;
+    margin: 0;
+}
+#intro header h2
+{
+    margin: 0;
+    font-weight: 600;
+    color: #d07628;
+    font-size: 30px;
+}
+#intro header h3
+{
+    margin: 0;
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+}
+#about
+{
+    border-left: 1px solid #a5a5a5;
+    padding: 25px;
+    width: 500px;
+    margin-bottom: 10px;
+}
+#contact-info
+{
+    display: flex;
+    border-bottom: 1px soild #a5a5a5; /*--------------------------------NOT WORKING FOR SOME */
+}
+#contact-info ul
+{
+    list-style: none; /* מעלים את הנקודות של העיצוב */
+}
+#contact-info ul:first-child /* the left column of contact-info*/
+{
+    font-weight: 600;
+    padding: 0;
+}
+#social-networks
+{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+#social-networks a
+{
+    color:#a5a5a5;
+    text-decoration: none;
+}
