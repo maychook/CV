@@ -66,7 +66,7 @@ body{
 #contact-info
 {
     display: flex;
-    border-bottom: 1px soild #a5a5a5; /*--------------------------------NOT WORKING FOR SOME */
+    border-bottom: 1px solid #a5a5a5; 
 }
 #contact-info ul
 {
@@ -89,3 +89,315 @@ body{
     color:#a5a5a5;
     text-decoration: none;
 }
+
+
+/*------------------------------------------ experience sesion ---------------------------------*/
+
+#skills-and-experience
+{
+    display: flex;
+    background: #fff;
+    color: #424242;
+/*    padding: 25px;*/
+}
+
+#experience h1 
+{
+    padding-left:25px;
+    padding-top:25px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#experience h4
+{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+#inner-experience 
+{
+    display: flex;
+    margin-top: 0;
+    padding-top:0;
+    padding-left: 25px;
+}
+
+#inner-experience ul
+{
+    list-style: none;    
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#inner-experience ul:first-child
+{
+    padding-left: 0;
+    text-transform: uppercase;
+    margin: 0;
+/*    padding: 0;*/
+    width: 200px;
+}
+
+#inner-experience ul:nth-child(2)
+{
+    padding-left: 0;
+    padding-right: 25px;
+    width: 400px;
+}
+
+#inner-experience article
+{
+    font-size: 14px;
+    font-weight: 600;
+    color:#9e9e9e;
+}
+
+#inner-experience h2
+{
+    margin-bottom:0;
+    font-size: 20px;
+/*    text-align: right;*/
+    color: #03A9F4;
+}
+
+#inner-experience h3
+{
+    margin:0;
+/*    text-align: right;*/
+    font-size: 18px;
+    color: #03A9F4;
+}
+
+#inner-experience h5
+{
+    margin-top:0;
+    color: #9e9e9e;
+}
+
+/*------------------------------------------ skills sesion ---------------------------------*/
+
+#skills
+{
+    width: 450px;
+}
+
+#skills h1
+{
+    padding-left: 45px;
+    width: 180px;
+    font-size: 30px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+#skills ul
+{
+    list-style: none;
+}
+
+#pro-skills
+{
+    background: #4DD0E1;
+    padding: 25px;
+}
+
+#per-skills
+{
+    background: #FFEB3B;
+    padding: 25px;
+}
+
+#inner-pro-skills
+{
+    padding: 0;
+    display: flex;
+}
+
+#inner-pro-skills ul:first-child
+{
+    padding-left: 45px;
+}
+
+#inner-per-skills
+{
+    padding: 0;
+    display: flex;
+}
+
+#inner-per-skills ul:first-child
+{
+    padding-left: 45px;
+}
+
+/*------------------------------------------ education sesion ---------------------------------*/
+
+#education
+{
+    background: #ffffff;
+    color: #424242;
+    padding: 25px;
+}
+
+#education h1
+{
+/*    padding-left:25px;*/
+/*    padding-top:25px;*/
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#education h4
+{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+#inner-education 
+{
+    display: flex;
+    margin-top: 0;
+    padding-top:0;
+/*    padding-left: 25px;*/
+}
+
+#inner-education ul
+{
+    list-style: none;    
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#inner-education ul:first-child
+{
+    padding-left: 0;
+    text-transform: uppercase;
+    margin: 0;
+/*    padding: 0;*/
+    width: 200px;
+}
+
+#inner-education ul:nth-child(2)
+{
+    padding-left: 0;
+    padding-right: 25px;
+    width: 700px;
+}
+
+#inner-education article
+{
+    font-size: 14px;
+    font-weight: 600;
+    color:#9e9e9e;
+}
+
+#inner-education h2
+{
+    margin-bottom:0;
+    font-size: 20px;
+/*    text-align: right;*/
+    color: #03A9F4;
+}
+
+#inner-education h3
+{
+    margin:0;
+/*    text-align: right;*/
+    font-size: 18px;
+    color: #03A9F4;
+}
+
+#inner-education h5
+{
+    margin-top:0;
+    color: #9e9e9e;
+}
+
+/*------------------------------------------ hobbies and language secstion ---------------------------------*/
+
+#hobbies-and-language
+{
+    display: flex;
+    background: #ffffff;
+    color: #424242;
+}
+
+
+
+
+/*------------------------------------------ hobbies secstion ---------------------------------*/
+
+#hobbies
+{
+    padding: 25px;
+    width: 750px;
+}
+
+#hobbies ul
+{
+/*    position: absolute;*/
+    align-items: center;
+    justify-content: space-between;
+    padding:0;
+    align-content: space-between;
+}
+
+#hobbies h1
+{
+/*    padding-left: 45px;*/
+    width: 180px;
+    font-size: 30px;
+/*    margin-bottom: 0;*/
+    text-transform: uppercase;
+}
+
+#hobbies h4
+{
+    padding: 0;
+    font-size: 15px;
+    font-weight: 100;
+    margin: 0;
+}
+#hobbies i
+{
+    padding-left: 25px;
+}
+
+/*------------------------------------------ hobbies secstion ---------------------------------*/
+
+#language
+{
+    width: 450px;
+    padding: 25px;
+}
+
+#language ul
+{
+    list-style: none;
+}
+
+#language h1
+{
+    padding-left: 35px;
+    width: 180px;
+    font-size: 30px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+#inner-language
+{
+    padding: 0;
+    display: flex;
+}
+
+#inner-language ul:first-child
+{
+/*    padding-left: 45px;*/
+}
+
+#inner-language ul:first-child
+{
+/*    padding-left: 45px;*/
+}
+
