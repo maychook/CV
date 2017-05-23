@@ -1,8 +1,17 @@
-body{
+body
+{
     font-family: 'Levenim MT';
     background: #424242;
     color: white;
 }
+
+progress
+{
+    background-color: transparent;
+    
+    
+}
+
 #cv
 {
     width: 1000px;
@@ -118,9 +127,13 @@ body{
 #inner-experience 
 {
     display: flex;
+    flex-direction: column;
     margin-top: 0;
     padding-top:0;
-    padding-left: 25px;
+/*    padding-left: 25px;*/
+    padding-left: 0;
+/*    padding-right: 25px;*/
+    width: 80%;
 }
 
 #inner-experience ul
@@ -129,22 +142,22 @@ body{
     margin-top: 0;
     padding-top: 0;
 }
-
+/*
 #inner-experience ul:first-child
 {
     padding-left: 0;
     text-transform: uppercase;
     margin: 0;
-/*    padding: 0;*/
+//   padding: 0;
     width: 200px;
-}
+}*/
 
-#inner-experience ul:nth-child(2)
+/*#inner-experience ul:nth-child(2)*/
+/*
+#inner-experience ul
 {
-    padding-left: 0;
-    padding-right: 25px;
-    width: 400px;
 }
+*/
 
 #inner-experience article
 {
@@ -175,12 +188,39 @@ body{
     color: #9e9e9e;
 }
 
+.expert
+{
+    display: flex;
+    width: 100%;
+}
+
+.first-col
+{
+/*    width: 450px;*/
+    flex-basis: 40%;
+    padding-right: 12px;
+/*    display: flex;*/
+}
+
+.sec-col
+{
+    flex-basis: 60%;
+}
+
+
 /*------------------------------------------ skills sesion ---------------------------------*/
 
 #skills
 {
-    width: 450px;
+    width: auto;
 }
+
+/*
+.skill
+{
+    display: flex;
+}
+*/
 
 #skills h1
 {
@@ -219,11 +259,13 @@ body{
     padding-left: 45px;
 }
 
+/*
 #inner-per-skills
 {
     padding: 0;
     display: flex;
 }
+*/
 
 #inner-per-skills ul:first-child
 {
@@ -322,9 +364,6 @@ body{
     color: #424242;
 }
 
-
-
-
 /*------------------------------------------ hobbies secstion ---------------------------------*/
 
 #hobbies
@@ -358,12 +397,16 @@ body{
     font-weight: 100;
     margin: 0;
 }
-#hobbies i
+
+.hobbie
 {
-    padding-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-/*------------------------------------------ hobbies secstion ---------------------------------*/
+/*------------------------------------------ laguage secstion ---------------------------------*/
 
 #language
 {
@@ -400,4 +443,5 @@ body{
 {
 /*    padding-left: 45px;*/
 }
+
 
